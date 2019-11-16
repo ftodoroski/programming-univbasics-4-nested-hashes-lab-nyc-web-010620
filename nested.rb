@@ -62,7 +62,7 @@ def dennis_ritchies_language
  	 # programmer_hash[:dennis_ritchie][:languages].join(', ')
 	 # Depending how many languages you have the .join will make it look nice like:
 	 # "Smalltalk, LISP"
-
+	 # This will list them as a string with a , and space
 end
 
 def adding_matz
