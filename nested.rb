@@ -58,7 +58,11 @@ def dennis_ritchies_language
         }
      }
 
- 	 programmer_hash[:dennis_ritchie][:languages].join(', ')
+ 	 programmer_hash[:dennis_ritchie][:languages]][0]
+ 	 # programmer_hash[:dennis_ritchie][:languages].join(', ')
+	 # Depending how many languages you have the .join will make it look nice like:
+	 # "Smalltalk, LISP"
+	 
 end
 
 def adding_matz
